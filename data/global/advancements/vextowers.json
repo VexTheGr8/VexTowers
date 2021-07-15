@@ -1,0 +1,18 @@
+{
+    "display": {
+        "title": "VexTowers",
+        "description": "Inspired from the BattleTowers Mod, adds an RPG aspect to the game with towers that have mobs to defeat and loot to yoink!",
+        "icon": {
+            "item": "minecraft:player_head",
+            "nbt": "{SkullOwner: 'VexTheGr8'}"
+        },
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "global:root",
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}
